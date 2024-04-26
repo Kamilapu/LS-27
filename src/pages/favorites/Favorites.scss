@@ -15,3 +15,33 @@
 
   gap: 25rem;
 }
+
+.film {
+  border-radius: 20rem;
+  border: 1rem solid #969696;
+  background: lightgray 50% / cover no-repeat;
+  
+}
+.img-film {
+  border-radius: 20rem;
+}
+
+.film-info {
+  padding-top: 16rem;
+  padding-left: 20rem;
+  padding-bottom: 24rem;
+}
+
+.film-title {
+  color: #000;
+  font-size: 16rem;
+  font-weight: 600;
+  line-height: 24rem;
+}
+
+.film-desc {
+  color: #000;
+  font-size: 16rem;
+  font-weight: 600;
+  line-height: 24rem;
+}

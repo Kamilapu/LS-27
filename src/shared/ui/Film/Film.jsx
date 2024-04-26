@@ -6,11 +6,17 @@ export const Film = ({ film }) => {
 	}
 	return (
 		<div className="film">
-			<img src={film.image} alt={film.title} />
-			{film.title}
-			{film.year}
-			{film.genre}
-			{film.isFavorited && <div onClick={handleUnFavorite}> UnCheck favorite</div> }
+			<img className="img-film" src={film.image} alt={film.title} />
+			<div className="film-info">
+				<div className="film-title">
+					{film.title}
+				</div>
+				<div className="film-desc">
+					{film.year}
+					{film.genre}
+				</div>
+			</div>
+			{film.isFavorited && <div onClick={handleUnFavorite}> UnCheck favorite</div>}
 		</div>
 	);
 };

@@ -26,6 +26,9 @@ export const AppRouter = () => {
 
 					<Route index={true} path="/favorites" element={<Favorites />} />
 					<Route index={true} path="/trending" element={<Trending />} />
+					
+
+					
 				</Route>
 			</Route>
 		)
